@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Ubuntu&display=swap');
+
+body{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(0, 0, 48);
+    color: whitesmoke;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 24vw;
+    height: 29vh;
+}
+img:hover{
+    transform: scale(0.95);
+}
+
+hr{
+    position: relative;
+    color: white;
+    width: 90%;
+    left: 6.5vh;
+    margin: 0 4vh 4vh 4vh;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40vh;
+    color: whitesmoke;
+}
+
+.secondSection{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40vh;
+}
+
+.div-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-name a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.div-name h2:hover{
+    transform: scale(0.95);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}

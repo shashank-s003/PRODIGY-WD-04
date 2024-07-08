@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Ubuntu&display=swap');
+
+body{
+    background-color: rgb(0, 0, 48);
+    color: whitesmoke;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.firstpage{
+    height: 90vh;
+}
+
+header {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 79);
+    height: 9vh;
+}
+
+header .left {
+    font-size: 4vh;
+    color: whitesmoke;
+    margin: 2.1vh 1vh;
+}
+
+header .right {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    display: flex;
+}
+
+.firstpage .right ul li a{
+    display: flex;
+    margin: 2.7vh 1vh;
+    height: 4vh;
+    width: 5vw;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    
+    transform: scale(1.1);
+}
+a:active{
+    transform: scale(0.99);
+}
+
+.color{
+    color: blueviolet;
+}
+
+.restpage {
+    font-size: 6vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: relative;
+    top: 17vh;
+}
+
+.restpage .right{
+    width: 30%;
+}
+
+.restpage .left{
+    width: 30%;
+    position: relative;
+    top: 15vh;
+}
+.restpage img{
+    width: 25vw;
+    height: 55vh;
+}
+
+button{
+    height: 6vh;
+    width: 9vw;
+    border-radius: 7vh;
+    background-color: rgb(89, 149, 170);
+    font-weight: 300;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+hr{
+    margin: 0 5vw;
+}
+
+.secondSection{
+    height: 90vh;
+}
+
+.top{
+    position: relative;
+    width: 30%;
+    left: 10%;
+    margin: 3vh 0;
+}
+
+.journeyBox{
+    background-color: whitesmoke;
+    height: 2px;
+    margin: 0 10%;
+    position: relative;
+    top: 17%;
+    display: flex;
+}
+
+.journeyBox .vertical{
+    background-color: whitesmoke;
+    height: 4vh;
+    width: 2px;
+    margin: 0 4.1vw;
+}
+
+.journeyBox img{
+    height: 8vh;
+    width: 4vw;
+    position: relative;
+    top: -13vh;
+    left: -2vw;
+}
+
+.journeyBox .vertical-title{
+    position: relative;
+    top: -12vh;
+    left: -1vw;
+}
+
+.journeyBox .vertical-desc{
+    /* border: 3px solid blueviolet; */
+    width: 7vw;
+    border-radius: 1vh;
+    position: relative;
+    left: -3vw;
+    top: -6vh;
+}
+.journeyBox .vertical-desc:hover{
+    transform: scale(1.05);
+}
+
+footer{
+    /* display: flex; */
+    height: 49vh;
+    background-color: rgb(48, 48, 48);
+}
+
+.footer{
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    width: 100%;
+}
+
+.footer img{
+    height: 9vh;
+    width: 4.5vw;
+}
+
+.footer-first-section{
+    margin: 2vh 0;
+}
+
+.footer-second-section a{
+    margin: 4vh 2vh;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-links .left{
+    margin: 2vh;
+}
+
+.footer-links .right{
+    margin: 2vh;
+}
+
+.footer-links ul{
+    display: flex;
+    flex-direction: column;
+    margin: 2vh;
+}
+
+.footer-links ul li{
+    margin: 1vh;
+}
+
+.footer-links a{
+    margin: 2vh;
+    text-decoration: none; 
+    color: whitesmoke;
+}
+
+.footer-links a:hover{
+    font-size: 2.5vh;
+}
+
+.end-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: grey;
+}
+
